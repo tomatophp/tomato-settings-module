@@ -1,4 +1,4 @@
-![Screenshot](https://github.com/tomatophp/tomato-settings/blob/master/art/screenshot.png)
+![Screenshot](https://github.com/tomatophp/tomato-settings-module/blob/master/art/screenshot.png)
 
 # Tomato Settings
 
@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-composer require tomatophp/tomato-settings
+composer require tomatophp/tomato-settings-module
 ```
 
 ## Support

@@ -8,7 +8,7 @@ try {
     if (!function_exists('setting')) {
         function setting($key)
         {
-            return \Modules\TomatoSettings\App\Models\Setting::where('name', $key)->first('payload') ? \TomatoPHP\TomatoSettings\Models\Setting::where('name', $key)->first('payload')->payload : false;
+            return \Modules\TomatoSettings\App\Models\Setting::where('name', $key)->first('payload') ? \Modules\TomatoSettings\App\Models\Setting::where('name', $key)->first('payload')->payload : false;
         }
     }
     if (!function_exists('dollar')) {

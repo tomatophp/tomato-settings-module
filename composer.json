@@ -1,6 +1,6 @@
 {
     "name": "tomatophp/tomato-settings-module",
-    "type": "library",
+    "type": "laravel-module",
     "description": "Full Settings Generator / Manager with GUI",
     "authors": [
         {
